@@ -29,7 +29,7 @@ public class ConfigNew {
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         try {
             dataSource.setDriverClass("org.postgresql.Driver");
-            dataSource.setJdbcUrl("jdbs:postgresql://localhost/skypro");
+            dataSource.setJdbcUrl("jdbc:postgresql://localhost/skypro");
             dataSource.setUser("postgres");
             dataSource.setPassword("Velveire");
         } catch (PropertyVetoException e) {
